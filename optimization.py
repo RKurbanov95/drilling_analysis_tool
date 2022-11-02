@@ -38,7 +38,7 @@ def update_database(file_name, well_name, section):
     df=load_las(file_name)
     load_to_field(well_name, section, df)
 
-class iptim():
+class optim():
 
     def __init__(self):
         self.df = {}
